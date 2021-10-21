@@ -1,0 +1,251 @@
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(6,39,66);
+  padding: 14px 40px;
+  font-family: 'Scheherazade New', serif;
+  color: white;
+
+}
+
+.header-left span{
+  color: white;
+  margin-left: 22px;
+  font-size: 20px;
+}
+
+.icon {
+  font-size: 35px;
+  color: white;
+}
+
+.header-left span{
+  /* color: white; */
+  margin-left: 22px;
+  font-size: 30px;
+}
+
+h2 {
+  font-size: 25px;
+  padding-right: 20px;
+}
+
+.brazil {
+  height: 100vh;
+  background-image: url('./IMG_6940.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.introduction {
+  margin-top: 30px;
+  display: flex;
+  justify-content: left;
+  margin-left: 300px;
+  /* flex-direction: row; */
+}
+
+.icon {
+  position: relative;
+  }
+
+.icon a {/*aタグを画像の真ん中に*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%,-50%);
+  -webkit-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  /*以下装飾*/
+  margin:0;/*余計な隙間を除く*/
+  font-size: 20px;/*文字サイズ*/
+  border: solid white 2px; /*線で囲う*/
+  padding: 7px;/*文字と線の間の余白*/
+  color: white;/*文字色*/
+  text-decoration: none;/*下線を表示させない*/
+  }
+
+.icon a:hover{/*カーソルを当てたとき*/
+  background: rgba(255, 255, 255, 0.3);/*背景を半透明に*/
+  }
+
+.icon img {
+  width: 100%;
+  }
+
+.introduction img {
+  height: 400px;
+  width: 350px;
+}
+
+h3 {
+  position: relative;
+  padding: 1rem .5rem;
+}
+
+h3::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8cm;
+  height: 5px;
+  content: '';
+  background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.explain {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 35px;
+  
+  /* text-align: center; */
+}
+
+h3 {
+  font-size: 30px;
+  text-align: left;
+}
+
+.bd::before {
+  content: 'Birth Day :';
+  font-size: 20px;
+  padding-top: 20px;
+  font-weight: bold;
+}
+
+h4 {
+  font-size: 20px;
+}
+
+h5 {
+  font-size: 20px;
+}
+
+.like {
+  display: flex;
+  justify-content: left;
+  margin-left: 300px;
+  padding-top: 30px;
+}
+
+.like img {
+  height: 400px;
+  width: 350px;
+}
+
+.likelist {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 35px;
+}
+
+
+h6 {
+  position: relative;
+  padding: 1rem .5rem;
+  font-size: 30px;
+
+}
+
+h6::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8cm;
+  height: 5px;
+  content: '';
+  background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.list {
+  padding-left: 10px;
+}
+
+ul li {
+  position: relative;
+}
+ul li::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: .5em;
+  left: -1em;
+  width: 6px;
+  height: 6px;
+  background-color: #3498db;
+  -webkit-transform: rotate(-45deg);
+  transform: rotate(-45deg);
+}
+
+.country {
+  display: flex;
+  justify-content: left;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin-left: 300px;
+}
+
+.country img {
+  height: 400px;
+  width: 350px;
+}
+
+.been {
+  display: flex;
+  flex-direction: column;
+  padding-left: 30px;
+  font-family: 'Merriweather', serif;
+  line-height: 35px;
+}
+
+
+.been h6 {  
+  position: relative;
+  padding: 1rem .5rem;
+  font-size: 30px;
+  
+}
+
+.been h6::after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 8cm;
+  height: 5px;
+  content: '';
+  background-image: -webkit-gradient(linear, left top, right top, from(#fa709a), to(#fee140));
+  background-image: -webkit-linear-gradient(left, #fa709a 0%, #fee140 100%);
+  background-image: linear-gradient(to right, #fa709a 0%, #fee140 100%);
+}
+
+.aaa {
+  font-size: 20px;
+}
+
+.aaa::before {
+  content: 'in';
+  font-size: 15px;
+}
+
+.been h1 {
+  font-size: 20px;
+}
+
+footer {
+  background-color: rgb(6,39,66);
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 20px;
+  margin-top: 20px;
+}
